@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isVectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-vector-like@esm/index.mjs';
+import isVectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-vector-like@v0.2.0-esm/index.mjs';
 ```
 
 #### isVectorLike( value )
@@ -74,7 +74,7 @@ var bool = isVectorLike( arr );
 <script type="module">
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
-import isVectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-vector-like@esm/index.mjs';
+import isVectorLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-vector-like@v0.2.0-esm/index.mjs';
 
 var arr = ndarray( 'generic', [ 0, 0, 0, 0 ], [ 4 ], [ 1 ], 0, 'row-major' );
 var out = isVectorLike( arr );
